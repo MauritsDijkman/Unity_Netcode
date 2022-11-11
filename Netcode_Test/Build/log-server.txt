@@ -1,0 +1,416 @@
+Mono path[0] = 'C:/Users/Maurits Dijkman/Unity Projects/Netcode_Test/Build/Netcode_Test_Data/Managed'
+Mono config path = 'C:/Users/Maurits Dijkman/Unity Projects/Netcode_Test/Build/MonoBleedingEdge/etc'
+Loading player data from C:/Users/Maurits Dijkman/Unity Projects/Netcode_Test/Build/Netcode_Test_Data/data.unity3d
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Users/Maurits Dijkman/Unity Projects/Netcode_Test/Build/Netcode_Test_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
+    Vendor:   NVIDIA
+    VRAM:     5968 MB
+    Driver:   31.0.15.2647
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.133 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+The referenced script (RcpTest) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Player') is missing!
+UnloadTime: 1.081200 ms
+The referenced script (RcpTest) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Player') is missing!
+The referenced script on this Behaviour (Game Object 'Player') is missing!
+Server's var initialized to: 0
+Server set its var to: 0,1
+Server set its var to: 6,299996
+Server set its var to: 13,50002
+Server set its var to: 20,80004
+Server set its var to: 27,20007
+Server set its var to: 33,50006
+Server set its var to: 39,89996
+Server set its var to: 46,89986
+Server set its var to: 54,19975
+Server set its var to: 61,39964
+Server set its var to: 68,59953
+Server set its var to: 75,89941
+Server set its var to: 83,0993
+Server set its var to: 90,39919
+Server set its var to: 97,69908
+Server set its var to: 104,899
+Server set its var to: 112,0989
+Server set its var to: 119,2988
+Server set its var to: 126,4986
+Server set its var to: 133,799
+Server set its var to: 140,9994
+Server set its var to: 148,2999
+Server set its var to: 155,5003
+Server set its var to: 162,8007
+Server set its var to: 169,9012
+Server set its var to: 177,2016
+Server set its var to: 184,4021
+Server set its var to: 191,7025
+Server set its var to: 198,9029
+Server set its var to: 206,2034
+Server set its var to: 213,5038
+Server set its var to: 220,7043
+Server set its var to: 228,0047
+Server set its var to: 235,3052
+Server set its var to: 242,5056
+Server set its var to: 249,806
+Server set its var to: 257,0065
+Server set its var to: 264,3069
+Server set its var to: 271,5074
+Server set its var to: 278,8078
+Server set its var to: 286,0082
+Server set its var to: 293,2087
+Server set its var to: 300,5091
+Server set its var to: 307,7096
+Server set its var to: 314,81
+Server set its var to: 322,0104
+Server set its var to: 329,2109
+Server set its var to: 336,5113
+Server set its var to: 343,7118
+Server set its var to: 350,9122
+Server set its var to: 358,1126
+Server set its var to: 365,4131
+Server set its var to: 372,6135
+Server set its var to: 379,914
+Server set its var to: 387,0144
+Server set its var to: 394,2148
+Server set its var to: 401,5153
+Server set its var to: 408,3157
+Server set its var to: 415,6161
+Server set its var to: 422,8166
+Server set its var to: 430,117
+Server set its var to: 437,4175
+Server set its var to: 444,6179
+Server set its var to: 451,9184
+Server set its var to: 459,2188
+Server set its var to: 466,5193
+Server set its var to: 473,8197
+Server set its var to: 481,1201
+Server set its var to: 488,4206
+Server set its var to: 495,621
+Server set its var to: 502,7215
+Server set its var to: 509,9219
+Server set its var to: 517,0208
+Server set its var to: 523,8192
+Server set its var to: 531,1174
+Server set its var to: 538,4156
+Server set its var to: 545,7138
+Server set its var to: 553,012
+Server set its var to: 560,3102
+Server set its var to: 567,6085
+Server set its var to: 574,9067
+Server set its var to: 582,2049
+Server set its var to: 589,5031
+Server set its var to: 596,7014
+Server set its var to: 603,9996
+Server set its var to: 611,1978
+Server set its var to: 618,3961
+Server set its var to: 625,5943
+Server set its var to: 632,8925
+Server set its var to: 640,0908
+Server set its var to: 647,389
+Server set its var to: 654,5872
+Server set its var to: 661,8854
+Server set its var to: 669,1837
+Server set its var to: 676,4819
+Server set its var to: 683,7801
+Server set its var to: 691,0783
+Server set its var to: 698,3765
+Server set its var to: 705,6747
+Server set its var to: 712,973
+Server set its var to: 720,2712
+Server set its var to: 727,0695
+Server set its var to: 734,2678
+Server set its var to: 741,466
+Server set its var to: 748,6642
+Server set its var to: 755,4626
+Server set its var to: 762,6608
+Server set its var to: 769,959
+Server set its var to: 777,2573
+Server set its var to: 784,5555
+Server set its var to: 791,8537
+Server set its var to: 799,1519
+Server set its var to: 806,4501
+Server set its var to: 813,6484
+Server set its var to: 820,9466
+Server set its var to: 828,2448
+Server set its var to: 835,543
+Server set its var to: 842,7413
+Server set its var to: 849,9395
+Server set its var to: 857,2377
+Server set its var to: 864,436
+Server set its var to: 871,6342
+Server set its var to: 878,9324
+Server set its var to: 885,2309
+Server set its var to: 892,5291
+Setting up 6 worker threads for Enlighten.
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [1.0 KB-2.0 KB]: 10766 frames, [2.0 KB-4.0 KB]: 10 frames, [4.0 KB-8.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 1 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 4.0 MB
+      Peak Allocated Bytes 2.1 MB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 15.9 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.2 KB
+      Overflow Count 4
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 9.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 6
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 14.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 11
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 9]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 8]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 7]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 10]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 28
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.0 MB
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 10778 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 2
+      Peak Allocated memory 18.3 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 10778 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 17.2 MB
+      Peak Large allocation bytes 16.0 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 2
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 3
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 1
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.0 MB
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [32.0 KB-64.0 KB]: 10777 frames, [2.0 MB-4.0 MB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 2.7 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [0.5 MB-1.0 MB]: 10778 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 0.8 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 1
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.0 MB
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [1.0 MB-2.0 MB]: 10778 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.4 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [0.5 MB-1.0 MB]: 10777 frames, [1.0 MB-2.0 MB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.1 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.0 MB
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 10778 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.0 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 10778 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 0.8 KB
+      Peak Large allocation bytes 0 B

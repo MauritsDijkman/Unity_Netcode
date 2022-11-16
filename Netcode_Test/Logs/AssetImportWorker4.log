@@ -1,0 +1,1021 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'nl' Physical Memory: 16304 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Maurits Dijkman/Unity Projects/Networking_Unity/Netcode_Test
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+50361
+Successfully changed project path to: C:/Users/Maurits Dijkman/Unity Projects/Networking_Unity/Netcode_Test
+C:/Users/Maurits Dijkman/Unity Projects/Networking_Unity/Netcode_Test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 238.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Maurits Dijkman/Unity Projects/Networking_Unity/Netcode_Test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
+    Vendor:   NVIDIA
+    VRAM:     5968 MB
+    Driver:   31.0.15.2686
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012338 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 210.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.495 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1496ms)
+		BeginReloadAssembly (192ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1014ms)
+			LoadAssemblies (184ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (558ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (210ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.021543 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Maurits Dijkman\Unity Projects\Networking_Unity\Netcode_Test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Maurits Dijkman\Unity Projects\Networking_Unity\Netcode_Test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.184 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2185ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1730ms)
+			LoadAssemblies (177ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (554ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (107ms)
+			SetupLoadedEditorAssemblies (809ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (214ms)
+				ProcessInitializeOnLoadAttributes (495ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4833 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (115.0 KB). Loaded Objects now: 5287.
+Memory consumption went from 180.8 MB to 180.7 MB.
+Total: 8.122200 ms (FindLiveObjects: 0.495300 ms CreateObjectMapping: 0.466400 ms MarkObjects: 6.952300 ms  DeleteObjects: 0.206700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 310143.591305 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/Fire/WFXMR_GazFireBig (Green).prefab
+  artifactKey: Guid(80c0dbff78cd8674db70406cfc8b1519) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/Fire/WFXMR_GazFireBig (Green).prefab using Guid(80c0dbff78cd8674db70406cfc8b1519) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7d9e4d41d61df5d453ac96f1a132622') in 0.333310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imported/Modern Weapons Pack/Ak-47/FBX/Materials/No Name.mat
+  artifactKey: Guid(894cbf79128bb455a8e49e4708f67559) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/Modern Weapons Pack/Ak-47/FBX/Materials/No Name.mat using Guid(894cbf79128bb455a8e49e4708f67559) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0e1d7cbb2aaeef6f7dc46ecbf2aac0b') in 0.038574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6e2516227ed17a4ed8baca53949e932') in 0.112731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Imported/Modern Weapons Pack/M4A1/FBX/Materials/M4A1 Sopmod Body Diffuse.mat
+  artifactKey: Guid(78ab691430c4c3948bafc63e58d78702) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/Modern Weapons Pack/M4A1/FBX/Materials/M4A1 Sopmod Body Diffuse.mat using Guid(78ab691430c4c3948bafc63e58d78702) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd771d2537b9260e4d29e85164e85bd6') in 0.040855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Imported/Modern Weapons Pack/M4A1/FBX/Materials/M4A1_Sopmod_Body.mat
+  artifactKey: Guid(7f5faf930e173324683de25e09ceb003) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/Modern Weapons Pack/M4A1/FBX/Materials/M4A1_Sopmod_Body.mat using Guid(7f5faf930e173324683de25e09ceb003) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '63785c21c645ae61a872495a14c5877d') in 0.025375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(53af8546199769649969bb78899ebdf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player.prefab using Guid(53af8546199769649969bb78899ebdf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab42cd081837fb03fd1149341b545efd') in 0.049935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Imported/Ammunition pack (demo)/Animations/Bullet1(handful)_controller.controller
+  artifactKey: Guid(0a09be0893b1ec041891d432f2caeda4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/Ammunition pack (demo)/Animations/Bullet1(handful)_controller.controller using Guid(0a09be0893b1ec041891d432f2caeda4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17c5e51f6bd02a1a26e4aafcf80a1270') in 0.028851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Imported/Ammunition pack (demo)/Materials/Platform_mat.mat
+  artifactKey: Guid(dc373e2b02159094eaa68fa84e24cb5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/Ammunition pack (demo)/Materials/Platform_mat.mat using Guid(dc373e2b02159094eaa68fa84e24cb5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '185f2de3e4f3943aab3a83e1414474c0') in 0.036398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Bullet Holes/WFX_BulletHole Concrete.mat
+  artifactKey: Guid(72b5a49033211f040b217a4431c08896) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Bullet Holes/WFX_BulletHole Concrete.mat using Guid(72b5a49033211f040b217a4431c08896) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02f462e60707e74495a371239a7f929c') in 0.031666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Impacts/WFX_M_Impact Smoke.mat
+  artifactKey: Guid(450dd918846b28b408e044f16f827449) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Impacts/WFX_M_Impact Smoke.mat using Guid(450dd918846b28b408e044f16f827449) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68708528d802a679a5fbba881cf91808') in 0.034679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Bullet Holes/WFX_BulletHole Metal.mat
+  artifactKey: Guid(042184d6004731842a52c613f8df564d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Bullet Holes/WFX_BulletHole Metal.mat using Guid(042184d6004731842a52c613f8df564d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd713b2d5b5f4be148fb412f27d6adf9') in 0.027393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Bullet Holes/WFX_BulletHole Concrete Lighted.mat
+  artifactKey: Guid(510d824c243583b488605ed79cd5f7d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Bullet Holes/WFX_BulletHole Concrete Lighted.mat using Guid(510d824c243583b488605ed79cd5f7d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eee362307e452c0f939786e4bc031627') in 0.019936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Flames/WFX_M_FlameMine Add.mat
+  artifactKey: Guid(5a8f1cdae1622674cbadec66134c60ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Flames/WFX_M_FlameMine Add.mat using Guid(5a8f1cdae1622674cbadec66134c60ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a242e2d718e014a605919f33d1a95731') in 0.027834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Samples/Netcode for GameObjects/1.1.0/Bootstrap/Prefabs/BootstrapPlayer.prefab
+  artifactKey: Guid(398aad09d8b2a47eba664a076763cdcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Netcode for GameObjects/1.1.0/Bootstrap/Prefabs/BootstrapPlayer.prefab using Guid(398aad09d8b2a47eba664a076763cdcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a57573cd9f326121d4f4e130e056bc8') in 0.026121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Flames/WFX_M_FlameSmall 4F Add.mat
+  artifactKey: Guid(b2593af31c471b7469ea80cfa0d26b34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Flames/WFX_M_FlameSmall 4F Add.mat using Guid(b2593af31c471b7469ea80cfa0d26b34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '725a4007dbd91fcad3bd5af402ca7203') in 0.026315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Flames/WFX_M_NukeFlames ScrollAdd.mat
+  artifactKey: Guid(9d5f92a71e0e19a4a99c1f7785e13a17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Flames/WFX_M_NukeFlames ScrollAdd.mat using Guid(9d5f92a71e0e19a4a99c1f7785e13a17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9524c8bf0d8f376947b4c371ed5cac4') in 0.030865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Imported/Modern Weapons Pack/Ak-47/FBX/Materials/Ak47 Magazine NRM.mat
+  artifactKey: Guid(6a12cf738358309408258643c954bef2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/Modern Weapons Pack/Ak-47/FBX/Materials/Ak47 Magazine NRM.mat using Guid(6a12cf738358309408258643c954bef2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78570ad785895a4488fd339388af41d4') in 0.034650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Bullet Holes/WFX_BulletHole Generic Sand.mat
+  artifactKey: Guid(bdd14d80d6f714d4ebc207bf6ad3164c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Bullet Holes/WFX_BulletHole Generic Sand.mat using Guid(bdd14d80d6f714d4ebc207bf6ad3164c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82bfdbc7e43c5739cf04202544d86581') in 0.023023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/New Everything/Player_Eyes.mat
+  artifactKey: Guid(94203763bf8a1c64a920300c50a664d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Everything/Player_Eyes.mat using Guid(94203763bf8a1c64a920300c50a664d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af6e61a3aca0d0f649cfcc0dbbb2bd00') in 0.016010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imported/Ammunition pack (demo)/Materials/Bullet7_mat(3).mat
+  artifactKey: Guid(adb04a67df56efb4a8cb3de5fae79543) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/Ammunition pack (demo)/Materials/Bullet7_mat(3).mat using Guid(adb04a67df56efb4a8cb3de5fae79543) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f952ec5c8cf233b41dff4d37aeef1d1f') in 0.027741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Imported/Ammunition pack (demo)/Prefabs/Bullet2(1).prefab
+  artifactKey: Guid(7af6b07676c52b94ba63b3fa7ff7d0fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/Ammunition pack (demo)/Prefabs/Bullet2(1).prefab using Guid(7af6b07676c52b94ba63b3fa7ff7d0fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '242b809aba59582f83e395d34ad89a02') in 0.032067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Materials/MuzzleFlashes/WFX_M_MF Side RIFLE1.mat
+  artifactKey: Guid(cef9a0c8b14aecf4096e3ff65ed281fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Materials/MuzzleFlashes/WFX_M_MF Side RIFLE1.mat using Guid(cef9a0c8b14aecf4096e3ff65ed281fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8faf3b5d057c8b023a170b0c90129e77') in 0.030859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeSpikeStretched.mat
+  artifactKey: Guid(5c8ba5bc91b214f4b878b96136b4d1fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeSpikeStretched.mat using Guid(5c8ba5bc91b214f4b878b96136b4d1fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa8b0c1fe4268f44c8c49406d72e16ae') in 0.039497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Materials/MuzzleFlashes/WFX_M_MF FrontRear RIFLE1.mat
+  artifactKey: Guid(f75cfa7d313f4ca4a9a0367922a04e8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Materials/MuzzleFlashes/WFX_M_MF FrontRear RIFLE1.mat using Guid(f75cfa7d313f4ca4a9a0367922a04e8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9bbffe2cd56f63a9057e53ab936ac77e') in 0.033719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Textures/Flames/WFX_T_NukeFlames.tga
+  artifactKey: Guid(c1e2180035cd91841b5d343f46041da9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Textures/Flames/WFX_T_NukeFlames.tga using Guid(c1e2180035cd91841b5d343f46041da9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '193b5669758a022ab89d2908066dd286') in 0.100792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeGrenade AB.mat
+  artifactKey: Guid(34d513672558fe0478dd3a29e7f55db4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeGrenade AB.mat using Guid(34d513672558fe0478dd3a29e7f55db4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ad51a8a7fd18a23959eda0189c9dfaa') in 0.023905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeNoise.mat
+  artifactKey: Guid(0c4c5159dcddba345a2aede959b2b3eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeNoise.mat using Guid(0c4c5159dcddba345a2aede959b2b3eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0076c1f37caa5003d0d1b8d5f66bc44a') in 0.031869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_ExplosiveSmoke.mat
+  artifactKey: Guid(c4934188b933304409ce48e07d589342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_ExplosiveSmoke.mat using Guid(c4934188b933304409ce48e07d589342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71cfa73397deb06be5147de4d896a40a') in 0.024223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Misc/WFX_M_GlowPalet Add.mat
+  artifactKey: Guid(0f995b3145e0e7247a42da6cef1dbf23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Misc/WFX_M_GlowPalet Add.mat using Guid(0f995b3145e0e7247a42da6cef1dbf23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '131e7c76c4051454afaa110c09fb71ff') in 0.027310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeScroll SoftMult.mat
+  artifactKey: Guid(7cd0317a189d24e488c96376bf32b9e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeScroll SoftMult.mat using Guid(7cd0317a189d24e488c96376bf32b9e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e7edfb8d8365c8d4d3da5243ceba655') in 0.020706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Imported/Ammunition pack (demo)/Textures/Bullet1_diffuse1.tga
+  artifactKey: Guid(30fcefff8373d6c4fa567c23ded3a8a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/Ammunition pack (demo)/Textures/Bullet1_diffuse1.tga using Guid(30fcefff8373d6c4fa567c23ded3a8a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c5c2893c0b9507a7989b78e40a19522b') in 0.033419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Imported/Ammunition pack (demo)/Materials/Bullet1_mat(1).mat
+  artifactKey: Guid(a9b4fec9d71bd2147b7c657e369a5689) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/Ammunition pack (demo)/Materials/Bullet1_mat(1).mat using Guid(a9b4fec9d71bd2147b7c657e369a5689) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e88a989498daa30eda5a8d7a0651496') in 0.023790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Textures/Smoke/WFX_T_SmokeSpikeStretched A8.tga
+  artifactKey: Guid(0f3f5635b6a7c0c4c9723fd09fa51d5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Textures/Smoke/WFX_T_SmokeSpikeStretched A8.tga using Guid(0f3f5635b6a7c0c4c9723fd09fa51d5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd011c77e3a868a8ca5a7000f3b06a138') in 0.026960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Textures/Misc/WFX_T_Debris Wood.tga
+  artifactKey: Guid(6499ec80e8fac904592dfa142f3436ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Textures/Misc/WFX_T_Debris Wood.tga using Guid(6499ec80e8fac904592dfa142f3436ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e675cbe3730f633d4f2cae69cf74590e') in 0.030840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Flames/WFXM_M_FlameMine Add.mat
+  artifactKey: Guid(2982c27c5a079614097abf8aa0e32609) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Flames/WFXM_M_FlameMine Add.mat using Guid(2982c27c5a079614097abf8aa0e32609) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4eb64cd2758a0e394cf1788e17bc33db') in 0.025612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Textures/Misc/WFX_T_GlowCircle A8.png
+  artifactKey: Guid(ddd99084bf4dcd54e8a575ee0959c08e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Textures/Misc/WFX_T_GlowCircle A8.png using Guid(ddd99084bf4dcd54e8a575ee0959c08e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ca3890d47320b5510c6ad9a43792254') in 0.033283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Textures/Misc/WFX_T_StretchPalet A8.png
+  artifactKey: Guid(16aa7f45fd438dd41a1e882bd67f5701) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Textures/Misc/WFX_T_StretchPalet A8.png using Guid(16aa7f45fd438dd41a1e882bd67f5701) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b3469d368ca823c24b925765bb77055') in 0.034136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Textures/MuzzleFlashes/WFX_T_MF Sparks RIFLE2 A8.tga
+  artifactKey: Guid(31da9bc7d3437a946b5613ded8e1ad31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Textures/MuzzleFlashes/WFX_T_MF Sparks RIFLE2 A8.tga using Guid(31da9bc7d3437a946b5613ded8e1ad31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c0b4457d98d189d543a3c6b0381dfe6') in 0.028022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Textures/Flames/WFX_T_FlamesBig.tga
+  artifactKey: Guid(630c7e341b44a8943bcef0e113fa837b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Textures/Flames/WFX_T_FlamesBig.tga using Guid(630c7e341b44a8943bcef0e113fa837b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd5dba96e5ae7696a70f10d8562baf6a') in 0.030674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Textures/Flames/WFX_T_FlamesBig A8.tga
+  artifactKey: Guid(506236d9deb4c264fa0e4c47cc390fe8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Textures/Flames/WFX_T_FlamesBig A8.tga using Guid(506236d9deb4c264fa0e4c47cc390fe8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8606db8a8c2b7e4c8ca3981e52f64b4') in 0.033678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Generic Dirt.mat
+  artifactKey: Guid(12e384003051d804d826efc716fc5f73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Generic Dirt.mat using Guid(12e384003051d804d826efc716fc5f73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ec0c163484e47ea72ba7dd60b0eeb60') in 0.023076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Metal.mat
+  artifactKey: Guid(4e72013fd53a9f2418f6df159a06e6a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Metal.mat using Guid(4e72013fd53a9f2418f6df159a06e6a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '436083b233bb824c10cdeca706f7583e') in 0.023684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Textures/MuzzleFlashes/WFX_T_MF FrontRear RIFLE3 A8.png
+  artifactKey: Guid(6de2876ac79ff9642a6dc07ef232a0aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Textures/MuzzleFlashes/WFX_T_MF FrontRear RIFLE3 A8.png using Guid(6de2876ac79ff9642a6dc07ef232a0aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56e66beaf986f018a36d705c6ea0a0ce') in 0.026762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Metal Lighted.mat
+  artifactKey: Guid(ad9313fb9df08c943873fb1f4fb3a662) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Metal Lighted.mat using Guid(ad9313fb9df08c943873fb1f4fb3a662) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b121d693ab415801dc7e861b16f11a07') in 0.020132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Misc/WFXM_M_GroundGlow Add.mat
+  artifactKey: Guid(d6d92f40e7533cf47b41548fdff21781) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Misc/WFXM_M_GroundGlow Add.mat using Guid(d6d92f40e7533cf47b41548fdff21781) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aaefd91e8728a5d9d363bd745996c8f0') in 0.026635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Flames/WFXM_M_NukeFlames ScrollAdd.mat
+  artifactKey: Guid(25f9427aaa71280449abc746714701e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Flames/WFXM_M_NukeFlames ScrollAdd.mat using Guid(25f9427aaa71280449abc746714701e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7fd7fe021b9a17b3be087a7b64fba2a8') in 0.027082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Flames/WFXM_M_FlameSmall Add.mat
+  artifactKey: Guid(f2e62d2a3f971454da5211512393653f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Flames/WFXM_M_FlameSmall Add.mat using Guid(f2e62d2a3f971454da5211512393653f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '87a3cc62dadc7f9ce4d533592db7ad0f') in 0.026612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Misc/WFXM_M_StretchPalet.mat
+  artifactKey: Guid(ae862d3e96e550448b065f9e4e239fa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Misc/WFXM_M_StretchPalet.mat using Guid(ae862d3e96e550448b065f9e4e239fa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '006af4d2b962a924a4a47ba506cf2ccf') in 0.021628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Smoke/WFXM_M_SmokeGrenadeWhite.mat
+  artifactKey: Guid(4540f773421d3ec4185a42a2627049dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Smoke/WFXM_M_SmokeGrenadeWhite.mat using Guid(4540f773421d3ec4185a42a2627049dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0391f140b472ca866abc4c6da6e9c7db') in 0.021269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Impacts/WFXM_M_Impact Debris.mat
+  artifactKey: Guid(bf3dd7130b0aa7a4e93821e6e0a15b6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Impacts/WFXM_M_Impact Debris.mat using Guid(bf3dd7130b0aa7a4e93821e6e0a15b6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ae72b3dc72efa4ce3027cf8e7708484') in 0.028728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Materials/MuzzleFlashes/WFXM_M_MF FrontRear RIFLE2.mat
+  artifactKey: Guid(8a122265722d0b548a0873d2129e8993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Materials/MuzzleFlashes/WFXM_M_MF FrontRear RIFLE2.mat using Guid(8a122265722d0b548a0873d2129e8993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e52e9721e2c1909acb43ca46e9bee6f8') in 0.024994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Impacts/WFXM_M_Sparks Metal.mat
+  artifactKey: Guid(a54ba3179ee833e4f85472f16ca41d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Impacts/WFXM_M_Sparks Metal.mat using Guid(a54ba3179ee833e4f85472f16ca41d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2c5c4050cb5bec5381ed2056aa2399a') in 0.025740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Imported/Ammunition pack (demo)/Textures/Bullet4_metallic.tga
+  artifactKey: Guid(9ad56495adf899c47b8cb7ec44ad63f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/Ammunition pack (demo)/Textures/Bullet4_metallic.tga using Guid(9ad56495adf899c47b8cb7ec44ad63f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30831e2b2ac61b51343f0ef51ec1ba6f') in 0.028058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Imported/Ammunition pack (demo)/Textures/Bullet5_diffuse1.tga
+  artifactKey: Guid(8ec575a0a13c31c4c86119ed8c930b30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/Ammunition pack (demo)/Textures/Bullet5_diffuse1.tga using Guid(8ec575a0a13c31c4c86119ed8c930b30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40bb96e1e22509a04818f490d1d496fb') in 0.029320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imported/Ammunition pack (demo)/Textures/Bullet5_diffuse3.tga
+  artifactKey: Guid(09dce65b88a1be3408ffb5817709b8b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/Ammunition pack (demo)/Textures/Bullet5_diffuse3.tga using Guid(09dce65b88a1be3408ffb5817709b8b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c19f26d9e70d7958cae16b402e72cb2b') in 0.026756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Imported/Ammunition pack (demo)/Textures/Bullet2_metallic1.tga
+  artifactKey: Guid(a53a252606e53f6489671364ced88db6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/Ammunition pack (demo)/Textures/Bullet2_metallic1.tga using Guid(a53a252606e53f6489671364ced88db6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '776509ff0f454a2a80e831776d6c0e16') in 0.030427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Misc/WFXM_M_GlowCircle Add.mat
+  artifactKey: Guid(3849731f87957fe4ca8e47a1c235c5a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Misc/WFXM_M_GlowCircle Add.mat using Guid(3849731f87957fe4ca8e47a1c235c5a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '358d8f0639383f38c818928420e5d9c1') in 0.025271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Misc/WFX_M_StretchPalet.mat
+  artifactKey: Guid(b0c7cf51d3fecb446ab93bf854419715) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Misc/WFX_M_StretchPalet.mat using Guid(b0c7cf51d3fecb446ab93bf854419715) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b3a1823df20a90f8623466dc506f69b') in 0.024645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Textures/MuzzleFlashes/WFXM_T_MF FrontRear RIFLE2 A8.png
+  artifactKey: Guid(a6119e1b774e68f449ced7123306e446) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Textures/MuzzleFlashes/WFXM_T_MF FrontRear RIFLE2 A8.png using Guid(a6119e1b774e68f449ced7123306e446) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c395b2092b99ccaf15228b97ff5ac479') in 0.030989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Textures/MuzzleFlashes/WFXM_T_MF Side RIFLE3 A8.png
+  artifactKey: Guid(0928104f6967d19408c5da91119f0d42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Textures/MuzzleFlashes/WFXM_T_MF Side RIFLE3 A8.png using Guid(0928104f6967d19408c5da91119f0d42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c101e2c0816470baa2085cfa7e4da9b9') in 0.039086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Textures/Smoke/WFXM_T_SmokeLoopAlpha.tga
+  artifactKey: Guid(00102373043eef842bee9e986845e68b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Textures/Smoke/WFXM_T_SmokeLoopAlpha.tga using Guid(00102373043eef842bee9e986845e68b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bfc05b6a4fdef62893de8b9448029c2c') in 0.028513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Textures/Flames/WFXM_T_StarFlames A8.tga
+  artifactKey: Guid(71c03ef0f48f1e849a487c848205d05b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Textures/Flames/WFXM_T_StarFlames A8.tga using Guid(71c03ef0f48f1e849a487c848205d05b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c5a6c606b6d9cddedca7a7a2aec57564') in 0.031142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Textures/Smoke/WFXM_T_SmokeNoise.tga
+  artifactKey: Guid(d9e7467f4890a244083c45417bc31ab4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Textures/Smoke/WFXM_T_SmokeNoise.tga using Guid(d9e7467f4890a244083c45417bc31ab4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '905cb17f2c30534ec3abe55f06f5d79d') in 0.028695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Textures/Misc/WFXM_T_GlowCircle A8.png
+  artifactKey: Guid(7c2db9e29dacb944d83a81c1168acd36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Textures/Misc/WFXM_T_GlowCircle A8.png using Guid(7c2db9e29dacb944d83a81c1168acd36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b481a067c73bb3c2a4eff05faa6cdb24') in 0.029225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects/Fire/Black Smoke/WFX_Fire Natural (Black Smoke).prefab
+  artifactKey: Guid(a817de05addd7b64faa73b34c74013ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects/Fire/Black Smoke/WFX_Fire Natural (Black Smoke).prefab using Guid(a817de05addd7b64faa73b34c74013ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4270d2117368208bba52ea6c7a79e927') in 0.132461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Textures/MuzzleFlashes/WFXM_T_MF Sparks RIFLE3 A8.tga
+  artifactKey: Guid(c07b27fb95623dd4db154ece46390112) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Textures/MuzzleFlashes/WFXM_T_MF Sparks RIFLE3 A8.tga using Guid(c07b27fb95623dd4db154ece46390112) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c59abd1b9993c643c7163dd5ff5a7de') in 0.036222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Textures/MuzzleFlashes/WFXM_T_MF FrontRear RIFLE1 A8.png
+  artifactKey: Guid(c3a593d4e93cf6c42b290b4ba179292d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Textures/MuzzleFlashes/WFXM_T_MF FrontRear RIFLE1 A8.png using Guid(c3a593d4e93cf6c42b290b4ba179292d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b550968de6f414775cfe7ab64e52d17') in 0.037389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects/Smoke/Color Variants/WFX_SmokeGrenade AlphaBlend Blue.prefab
+  artifactKey: Guid(bc0b2f96facec664db900c70be366a48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects/Smoke/Color Variants/WFX_SmokeGrenade AlphaBlend Blue.prefab using Guid(bc0b2f96facec664db900c70be366a48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8fd4c63735a39ee535228545810b8bcc') in 0.103252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects/MuzzleFlashes/4Planes/WFX_MF 4P RIFLE2.prefab
+  artifactKey: Guid(b0a227fc2e558f241b1c747820ccc361) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects/MuzzleFlashes/4Planes/WFX_MF 4P RIFLE2.prefab using Guid(b0a227fc2e558f241b1c747820ccc361) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d768d9b66f6fe33fb4ebda945ccb4b7') in 0.096953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects/MuzzleFlashes/FPS/WFX_MF FPS RIFLE3.prefab
+  artifactKey: Guid(8eaaa4f553116f44b8459bc24201c514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects/MuzzleFlashes/FPS/WFX_MF FPS RIFLE3.prefab using Guid(8eaaa4f553116f44b8459bc24201c514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2951c386da1a6311a8f8f3cbcead3806') in 0.099877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects/Fire/No Smoke/WFX_Fire Natural Circle (No Smoke).prefab
+  artifactKey: Guid(55654dc0a2e9e124b914a067ed8bca69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects/Fire/No Smoke/WFX_Fire Natural Circle (No Smoke).prefab using Guid(55654dc0a2e9e124b914a067ed8bca69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a70f834e26f44157342bf6088dbafbf') in 0.100255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects/MuzzleFlashes/Sprites/WFX_MF Spr RIFLE2.prefab
+  artifactKey: Guid(eb553b67921c92649ac7dbbc561e2047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects/MuzzleFlashes/Sprites/WFX_MF Spr RIFLE2.prefab using Guid(eb553b67921c92649ac7dbbc561e2047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be9b6556f40390d50461f8e404903b73') in 0.090005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects/Smoke/Color Variants/WFX_SmokeGrenade AlphaBlend Green.prefab
+  artifactKey: Guid(6a6450d1b39d99545be383e7549fd7d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects/Smoke/Color Variants/WFX_SmokeGrenade AlphaBlend Green.prefab using Guid(6a6450d1b39d99545be383e7549fd7d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a0c1c0aefbe9c5fada6520522697373') in 0.090043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects/Smoke/Color Variants/WFX_SmokeGrenade Green.prefab
+  artifactKey: Guid(298ea2e9f387a124d9ee2b3ac6bb3a23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects/Smoke/Color Variants/WFX_SmokeGrenade Green.prefab using Guid(298ea2e9f387a124d9ee2b3ac6bb3a23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78a7171be05aeea9f523b9509f991004') in 0.093426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects/Fire/No Smoke/WFX_Fire Natural Broad (No Smoke).prefab
+  artifactKey: Guid(cfa5cd38b0eeb5d45aafdbe57871168c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects/Fire/No Smoke/WFX_Fire Natural Broad (No Smoke).prefab using Guid(cfa5cd38b0eeb5d45aafdbe57871168c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59dcd3ad95829710728b0911694afd8d') in 0.094959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects/Fire/Gray Smoke/WFX_GazFire (Gray Smoke).prefab
+  artifactKey: Guid(8f4c8e6e19f6811488df5bbe56510f9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects/Fire/Gray Smoke/WFX_GazFire (Gray Smoke).prefab using Guid(8f4c8e6e19f6811488df5bbe56510f9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47b74aef83657f23e33ae8da76636010') in 0.093954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Imported/Ammunition pack (demo)/Textures/Bullet6_normal.tga
+  artifactKey: Guid(825b671eae0d1f448a50a3b4328e8b0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/Ammunition pack (demo)/Textures/Bullet6_normal.tga using Guid(825b671eae0d1f448a50a3b4328e8b0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e931663fe77c1a50a1e3a4173878b085') in 0.021205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/Fire/No Smoke/WFXMR_Fire Natural Circle (No Smoke).prefab
+  artifactKey: Guid(16fa56e3bc952f8418a8c26526b344e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/Fire/No Smoke/WFXMR_Fire Natural Circle (No Smoke).prefab using Guid(16fa56e3bc952f8418a8c26526b344e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14d1bf37f037745a554da202df8e2bb8') in 0.118484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/Fire/Gray Smoke/WFXMR_Fire Natural Broad (Gray Smoke).prefab
+  artifactKey: Guid(6653f15cda5958544adcee9813458b88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/Fire/Gray Smoke/WFXMR_Fire Natural Broad (Gray Smoke).prefab using Guid(6653f15cda5958544adcee9813458b88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0573281967e73c1ee5e14049ffd6ad83') in 0.103107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/Fire/Black Smoke/WFXMR_Fire Natural Circle (Black Smoke).prefab
+  artifactKey: Guid(47fd4bfb1804201488355f589f12342a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/Fire/Black Smoke/WFXMR_Fire Natural Circle (Black Smoke).prefab using Guid(47fd4bfb1804201488355f589f12342a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd64840b424a4cf30fcee1c40341aa303') in 0.156811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Imported/Ammunition pack (demo)/Textures/Bullet7_metallic2.tga
+  artifactKey: Guid(2d1c9b8f2f1d5c648b2eb0d8fe677ea4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/Ammunition pack (demo)/Textures/Bullet7_metallic2.tga using Guid(2d1c9b8f2f1d5c648b2eb0d8fe677ea4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bbea95356ec235430f4b795281141ee0') in 0.043574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Textures/Flames/WFXM_T_FlameThrower Stream.tga
+  artifactKey: Guid(2d79bd5c0ba916f4eaef7a2026471516) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Textures/Flames/WFXM_T_FlameThrower Stream.tga using Guid(2d79bd5c0ba916f4eaef7a2026471516) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5056556dbabba37f36f1030da69d3160') in 0.043911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/Smoke/Color Variants/WFXMR_SmokeGrenade AlphaBlend Green.prefab
+  artifactKey: Guid(1b965847239ef1b4bb7bf9b94bd359af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/Smoke/Color Variants/WFXMR_SmokeGrenade AlphaBlend Green.prefab using Guid(1b965847239ef1b4bb7bf9b94bd359af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7f5fa9f4e053e9be2e183ccf3a5eacf') in 0.126709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/MuzzleFlashes/FPS/WFXMR_MF FPS RIFLE1.prefab
+  artifactKey: Guid(234e5aa95353f0643b0181dc3872cda9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/MuzzleFlashes/FPS/WFXMR_MF FPS RIFLE1.prefab using Guid(234e5aa95353f0643b0181dc3872cda9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c8b679941cc0920771527378a3b0354') in 0.102899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects/MuzzleFlashes/4Planes/WFX_MF 4P RIFLE3.prefab
+  artifactKey: Guid(f47cb9d88f4bc6c4bb7441e962c2c1a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects/MuzzleFlashes/4Planes/WFX_MF 4P RIFLE3.prefab using Guid(f47cb9d88f4bc6c4bb7441e962c2c1a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f63c0748909c1e0d11b3b75c95d6904b') in 0.101964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Scripts/CFX_LightIntensityFade.cs
+  artifactKey: Guid(c2255468ea97f384a9ebbb13e497e050) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Scripts/CFX_LightIntensityFade.cs using Guid(c2255468ea97f384a9ebbb13e497e050) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd96f483333b694ad6e772a2160d742e') in 0.018339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Shaders/WFX_S Particle Add A8.shader
+  artifactKey: Guid(76840267cd7c0e64292ec296b1769b24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Shaders/WFX_S Particle Add A8.shader using Guid(76840267cd7c0e64292ec296b1769b24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d226bbc81ace4ed0d2854b66fc702b7') in 0.021627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects/Fire/Gray Smoke/WFX_Fire Natural (Gray Smoke).prefab
+  artifactKey: Guid(717898f1e82d6b94f8dfa819112cc432) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects/Fire/Gray Smoke/WFX_Fire Natural (Gray Smoke).prefab using Guid(717898f1e82d6b94f8dfa819112cc432) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3fad3358d62e2489a95224b2241fde02') in 0.093285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects/Bullet Impacts/+ Bullet Hole/Unlit/WFX_BImpact Concrete + Hole Unlit.prefab
+  artifactKey: Guid(94a130fb17f1cae4388a8fe1d8bd3055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects/Bullet Impacts/+ Bullet Hole/Unlit/WFX_BImpact Concrete + Hole Unlit.prefab using Guid(94a130fb17f1cae4388a8fe1d8bd3055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '483bbc53432441b4769be5cdbdc3d9a3') in 0.096500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/Bullet Impacts/+ Bullet Hole/Lit/WFXMR_BImpact Concrete + Hole Lit.prefab
+  artifactKey: Guid(1713e531a06d4d547acdc97e2f7f03e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/Bullet Impacts/+ Bullet Hole/Lit/WFXMR_BImpact Concrete + Hole Lit.prefab using Guid(1713e531a06d4d547acdc97e2f7f03e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc4fab0ae04ea237217c14b01bb8cc86') in 0.125471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/Fire/Gray Smoke/WFXMR_Fire Natural (Gray Smoke).prefab
+  artifactKey: Guid(70f4ae7b25c458e45a1f83a9bbf8f2d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/Fire/Gray Smoke/WFXMR_Fire Natural (Gray Smoke).prefab using Guid(70f4ae7b25c458e45a1f83a9bbf8f2d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29cf3de508cc27e51ae6f2ac212fcc01') in 0.127871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Misc/WFX_M_SmallDotsInv Mult.mat
+  artifactKey: Guid(4d1d4d88cfac1d747af75ea13f5d3e42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Misc/WFX_M_SmallDotsInv Mult.mat using Guid(4d1d4d88cfac1d747af75ea13f5d3e42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '698937c6da98287da903d3653e724e29') in 0.022274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Textures/Misc/WFXM_T_Debris Wood.tga
+  artifactKey: Guid(c1359f3cb3c1e964899a17d4a530085c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Textures/Misc/WFXM_T_Debris Wood.tga using Guid(c1359f3cb3c1e964899a17d4a530085c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3c2ad0f07e52b56f67648de74772fab') in 0.027749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/Bullet Impacts/+ Bullet Hole/Unlit/WFXMR_BImpact Wood NoCollision + Hole Unlit.prefab
+  artifactKey: Guid(ada3e15c23ce1c1439a8ca49c46cda22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/Bullet Impacts/+ Bullet Hole/Unlit/WFXMR_BImpact Wood NoCollision + Hole Unlit.prefab using Guid(ada3e15c23ce1c1439a8ca49c46cda22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9da1cc945ae32a064b13305c1aa1883b') in 0.101405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Textures/Flames/WFX_T_StarFlames A8.tga
+  artifactKey: Guid(714258cc1f8222649840f292337fb353) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Textures/Flames/WFX_T_StarFlames A8.tga using Guid(714258cc1f8222649840f292337fb353) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c59eebb0f29ae762cdb36b49eb143ce') in 0.027252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Textures/Bullet Holes/WFX_T_BulletHoles Concrete.tga
+  artifactKey: Guid(eca10a393fd9c894fa28b8013cedf3cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Textures/Bullet Holes/WFX_T_BulletHoles Concrete.tga using Guid(eca10a393fd9c894fa28b8013cedf3cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b897985c18ee269c81c8ba87657f6d74') in 0.030022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/Bullet Impacts/WFXMR_BImpact Concrete NoCollision.prefab
+  artifactKey: Guid(f04e15e9b0b32f24b9e87868e8bfbeea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/Bullet Impacts/WFXMR_BImpact Concrete NoCollision.prefab using Guid(f04e15e9b0b32f24b9e87868e8bfbeea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8c77c1a743ffca8850c30c7350decde') in 0.100206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Textures/MuzzleFlashes/WFX_T_MF FrontRear RIFLE1 A8.png
+  artifactKey: Guid(1f835b8ac4f16174889bcee8981c9142) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Textures/MuzzleFlashes/WFX_T_MF FrontRear RIFLE1 A8.png using Guid(1f835b8ac4f16174889bcee8981c9142) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ce5fe0e5b4cf4ac2c825d1356a9ff03') in 0.037990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/MuzzleFlashes/FPS/WFXMR_MF FPS RIFLE2.prefab
+  artifactKey: Guid(cdf14baff693fbc439f8c859529a63a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/MuzzleFlashes/FPS/WFXMR_MF FPS RIFLE2.prefab using Guid(cdf14baff693fbc439f8c859529a63a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1f6f8f6f3ff14d38dae1f48d1c5914c') in 0.102962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/MuzzleFlashes/Sprites/WFXMR_MF Spr RIFLE1.prefab
+  artifactKey: Guid(2f7910242354c78419d50ac9e64b496f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/MuzzleFlashes/Sprites/WFXMR_MF Spr RIFLE1.prefab using Guid(2f7910242354c78419d50ac9e64b496f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc5723219cdc1e7ead4b4208c2f6ea43') in 0.103553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/Bullet Impacts/+ Bullet Hole/Unlit/WFXMR_BImpact Concrete + Hole Unlit.prefab
+  artifactKey: Guid(382c72524bd69044fae222eefa70563a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/Bullet Impacts/+ Bullet Hole/Unlit/WFXMR_BImpact Concrete + Hole Unlit.prefab using Guid(382c72524bd69044fae222eefa70563a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1fed5dd934e7607c17dcf5c0a54a7d25') in 0.100508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects/Smoke/Color Variants/WFX_SmokeGrenade Blue.prefab
+  artifactKey: Guid(fea95a8674a12ca469d953eefadb847c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects/Smoke/Color Variants/WFX_SmokeGrenade Blue.prefab using Guid(fea95a8674a12ca469d953eefadb847c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a92275fe8b55f0079ef29e4e419ab89e') in 0.111186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Shaders/WFX_S Add Scroll.shader
+  artifactKey: Guid(7439add42f7e65b4dbc36568299dde17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Shaders/WFX_S Add Scroll.shader using Guid(7439add42f7e65b4dbc36568299dde17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b9136bd2ce805cdd9bd0d5eea840da9') in 0.026065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Imported/Ammunition pack (demo)/Textures/Bullet7_metallic1.tga
+  artifactKey: Guid(5e77b9cc11a2af0478cd1f89f680e62b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/Ammunition pack (demo)/Textures/Bullet7_metallic1.tga using Guid(5e77b9cc11a2af0478cd1f89f680e62b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c75bf871b6d9c7540aeee0d17bf0ee1c') in 0.032223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Imported/Modern Weapons Pack/ACOG Sight/OBJ (Extra)/ACOG Sight.obj
+  artifactKey: Guid(e8591565e29e7224b9d451ff2186bf22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/Modern Weapons Pack/ACOG Sight/OBJ (Extra)/ACOG Sight.obj using Guid(e8591565e29e7224b9d451ff2186bf22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2779d58c3bc544866cbb0279e4cf1a4') in 0.086214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects/Bullet Impacts/+ Bullet Hole/Unlit/WFX_BImpact Wood NoCollision + Hole Unlit.prefab
+  artifactKey: Guid(9bdf482976052a647946e8159033a295) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects/Bullet Impacts/+ Bullet Hole/Unlit/WFX_BImpact Wood NoCollision + Hole Unlit.prefab using Guid(9bdf482976052a647946e8159033a295) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18113d24e74f57ce54d3d5c94d21a519') in 0.106579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Textures/Misc/WFXM_T_Sparks Metal A8.png
+  artifactKey: Guid(667b83d02e5a08448aea68ca3e97a606) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Textures/Misc/WFXM_T_Sparks Metal A8.png using Guid(667b83d02e5a08448aea68ca3e97a606) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2dce4649704348a909258b46ad96c395') in 0.031442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Textures/MuzzleFlashes/WFXM_T_MF Side RIFLE1 A8.png
+  artifactKey: Guid(af192a8ff3392cf489f256b2b152e039) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Textures/MuzzleFlashes/WFXM_T_MF Side RIFLE1 A8.png using Guid(af192a8ff3392cf489f256b2b152e039) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1842a7f9d65de966bec0723644c8892a') in 0.025360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '060f6ffe5bc0df7c1e0f0e1e203270e8') in 0.014303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8c6f3c57af1dd9670207944af367203') in 0.080364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects/Bullet Impacts/+ Bullet Hole/Lit/WFX_BImpact Concrete + Hole Lit.prefab
+  artifactKey: Guid(9e95c7b2183a4f345aaf86846f8f1918) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects/Bullet Impacts/+ Bullet Hole/Lit/WFX_BImpact Concrete + Hole Lit.prefab using Guid(9e95c7b2183a4f345aaf86846f8f1918) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c2f87574e4abd4ac8fe7ba3545f50737') in 0.118531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aeefce4c00093ef1148a325de841c9bc') in 0.020712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/Fire/Gray Smoke/WFXMR_Fire SmallFlame (Gray Smoke).prefab
+  artifactKey: Guid(ff7840f1c1582ea4cbe1d632c878e884) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/Fire/Gray Smoke/WFXMR_Fire SmallFlame (Gray Smoke).prefab using Guid(ff7840f1c1582ea4cbe1d632c878e884) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60e10790a2d31213a66e284eda9ef80c') in 0.099327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Shaders/WFX_S Particle Multiply A8.shader
+  artifactKey: Guid(27aa926a717dbfe44b4b79e7d91fa71d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Shaders/WFX_S Particle Multiply A8.shader using Guid(27aa926a717dbfe44b4b79e7d91fa71d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77809104f78a4ceba42d2fa26768b667') in 0.018165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Textures/Flames/WFX_T_FlameThrower Stream.tga
+  artifactKey: Guid(df7c63e268a99654a9238a1e528a793c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Textures/Flames/WFX_T_FlameThrower Stream.tga using Guid(df7c63e268a99654a9238a1e528a793c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5bfe696c538031d0ae18dd8e8c4d792') in 0.026358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Imported/Ammunition pack (demo)/Textures/Bullet5_diffuse2.tga
+  artifactKey: Guid(e86d4da85a76d91409a0a13069c862a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/Ammunition pack (demo)/Textures/Bullet5_diffuse2.tga using Guid(e86d4da85a76d91409a0a13069c862a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '289e63f80b3a9d6d2dd1a94016985f0f') in 0.029740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/Fire/Black Smoke/WFXMR_GazFire (Black Smoke).prefab
+  artifactKey: Guid(17315d51dc90be34cad95e853f26b6ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects (Mobile)/Fire/Black Smoke/WFXMR_GazFire (Black Smoke).prefab using Guid(17315d51dc90be34cad95e853f26b6ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a5c16aaf93c3e67020d153e8f1e6721') in 0.106131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Generic Sand.mat
+  artifactKey: Guid(d9647b2b4e5345043b393555fd1dd336) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Generic Sand.mat using Guid(d9647b2b4e5345043b393555fd1dd336) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a077d7ca9e85b5f1b8c965aa3312c4f1') in 0.023210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects/Bullet Impacts/+ Bullet Hole/Unlit/WFX_BImpact Wood + Hole Unlit.prefab
+  artifactKey: Guid(053ffbc5e89111349bb060a39ffa0f37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects/Bullet Impacts/+ Bullet Hole/Unlit/WFX_BImpact Wood + Hole Unlit.prefab using Guid(053ffbc5e89111349bb060a39ffa0f37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aeec8ef26e5dc632907994619cf4e96b') in 0.110602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scripts/TestMovement.cs
+  artifactKey: Guid(62a2408f3922e6249bbef46a706e1df0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/TestMovement.cs using Guid(62a2408f3922e6249bbef46a706e1df0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2ef9911cad344050c7de9d08fafd81c') in 0.014362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Misc/WFX_M_SmallDots Add.mat
+  artifactKey: Guid(e4f85b2e68822a041b8df56db88fbd27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/Desktop/Materials/Misc/WFX_M_SmallDots Add.mat using Guid(e4f85b2e68822a041b8df56db88fbd27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4eacf7fa7c832e2bd6b8ac4a0808200') in 0.021082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Imported/JMO Assets/WarFX/_Effects/Explosions/WFX_ExplosiveSmoke.prefab
+  artifactKey: Guid(4575df893a6e3f64a8283dee38413a34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Imported/JMO Assets/WarFX/_Effects/Explosions/WFX_ExplosiveSmoke.prefab using Guid(4575df893a6e3f64a8283dee38413a34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd15eb911f0a525af64af7a975e40c683') in 0.106435 seconds 

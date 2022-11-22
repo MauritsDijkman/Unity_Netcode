@@ -41,6 +41,7 @@ namespace HelloWorld
 
         static void SubmitNewPosition()
         {
+            /**
             Debug.Log("SubmitNewPosition!");
 
             if (NetworkManager.Singleton.IsServer && !NetworkManager.Singleton.IsClient)
@@ -63,6 +64,7 @@ namespace HelloWorld
                 }
                 Debug.Log("Client move is called!");
             }
+            /**/
         }
     }
 }

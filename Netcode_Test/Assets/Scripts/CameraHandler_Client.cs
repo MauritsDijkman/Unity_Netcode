@@ -11,19 +11,27 @@ public class CameraHandler_Client : NetworkBehaviour
 
     private void Start()
     {
-        if (CameraHandler_Client.Singleton == null)
+        if (!IsOwner)
+            return;
+        else
         {
-            Debug.Log("Singleton was null!");
-            Singleton = this;
-        }
+            if (CameraHandler_Client.Singleton == null)
+            {
+                Debug.Log("Singleton was null!");
+                Singleton = this;
+            }
 
-        // Check if the client camera is null
-        if (clientCamera == null)
-            FindClientCamera();
+            // Check if the client camera is null
+            if (clientCamera == null)
+                FindClientCamera();
+        }
     }
 
     private void Update()
     {
+        if (!IsOwner)
+            return;
+
         Debug.Log($"IsServer: {NetworkManager.Singleton.IsServer} || IsHost: {NetworkManager.Singleton.IsHost} || IsClient: {NetworkManager.Singleton.IsClient}");
 
         if (NetworkManager.Singleton.IsHost || NetworkManager.Singleton.IsClient)

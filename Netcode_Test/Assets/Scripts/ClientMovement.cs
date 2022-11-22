@@ -32,25 +32,29 @@ namespace HelloWorld
 
         private void Start()
         {
-            if (!IsLocalPlayer)
-                enabled = false;
-
-            rb = GetComponent<Rigidbody>();
-            rb.freezeRotation = true;
-            readyToJump = true;
+            if (!IsOwner)
+                return;
+            else
+            {
+                rb = GetComponent<Rigidbody>();
+                rb.freezeRotation = true;
+                readyToJump = true;
+            }
         }
 
+        /**
         public override void OnNetworkSpawn()
         {
             if (IsOwner)
                 Move();
         }
 
+        
         public void Move()
         {
             if (NetworkManager.Singleton.IsHost || NetworkManager.Singleton.IsServer)
             {
-                if (IsLocalPlayer)
+                if (IsOwner)
                     SubmitPositionRequestServerRpc();
             }
         }
@@ -60,26 +64,27 @@ namespace HelloWorld
         {
             Position.Value = transform.position;
         }
+        /**/
 
         private void Update()
         {
-            if (NetworkManager.Singleton.IsClient)
+            if (IsOwner && NetworkManager.Singleton.IsClient)
             {
                 HandleInput();
 
-                if (IsLocalPlayer)
-                    SubmitPositionRequestServerRpc();
+                //if (IsLocalPlayer)
+                //    SubmitPositionRequestServerRpc();
             }
         }
 
         private void FixedUpdate()
         {
-            if (NetworkManager.Singleton.IsClient)
+            if (IsOwner && NetworkManager.Singleton.IsClient)
             {
                 MovePlayer();
 
-                if (IsLocalPlayer)
-                    SubmitPositionRequestServerRpc();
+                //if (IsLocalPlayer)
+                //    SubmitPositionRequestServerRpc();
             }
         }
 

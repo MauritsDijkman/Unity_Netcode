@@ -1,6 +1,7 @@
+using Unity.Netcode;
 using UnityEngine;
 
-public class Weapon_Shoot : MonoBehaviour
+public class Weapon_Shoot : NetworkBehaviour
 {
     [Header("Values")]
     [SerializeField] private GameObject bullet;
@@ -15,11 +16,17 @@ public class Weapon_Shoot : MonoBehaviour
 
     private void Start()
     {
-        canShoot = true;
+        if (!IsOwner)
+            return;
+        else
+            canShoot = true;
     }
 
     private void Update()
     {
+        if (!IsOwner)
+            return;
+
         if (Input.GetButtonDown("Fire1") && canShoot)
         {
             canShoot = false;

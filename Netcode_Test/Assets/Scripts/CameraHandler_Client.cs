@@ -1,6 +1,7 @@
 using Unity.Netcode;
 using UnityEngine;
 
+
 public class CameraHandler_Client : NetworkBehaviour
 {
     public static CameraHandler_Client Singleton { get; private set; }

@@ -5,49 +5,24 @@ using Unity.Netcode;
 using System;
 
 
-  public class Health_network : NetworkBehaviour
-{ 
+public class Health_network : NetworkBehaviour
+{
+    public Slider slider;
+    public Gradient gradient;
+    public Image fill;
 
-    public const int maxHealth = 100;
-    // [SyncVar(hook = "OnChangeHealth")] public int currentHealth = maxHealth;
-    [SyncVar] public int currentHealth = maxHealth;
-    public RectTransform healthbar;
-
-    public void TakeDamage(int amount)
+    public void SetMaxHealth(int health)
     {
-       if (IsServer)
-       {
-            return;
-       }
-        currentHealth -= amount;
-        if (currentHealth < 0)
-        {
-            currentHealth = maxHealth;
-          //  RpcRespawn();
-        }
-        healthbar.sizeDelta = new Vector2(currentHealth * 2, healthbar.sizeDelta.y);
+        slider.maxValue = health;
+        slider.value = health;
+
+        fill.color = gradient.Evaluate(1f);
     }
 
-    /*
-    void OnChangeHealth(int health)
+    public void SetHealth(int health)
     {
-        healthbar.sizeDelta = new Vector2(currentHealth * 2, healthbar.sizeDelta.y);
-    }
-    */
+        slider.value = health;
 
-    internal class SyncVarAttribute : Attribute
-    {
+        fill.color = gradient.Evaluate(slider.normalizedValue);
     }
-    /*
-    [ClientRpc]
-    void RpcRespawn()
-    {
-        if(IsLocalPlayer)
-        {
-            transform.position = Vector3.zero;
-        }
-    }
-*/    
 }
-
-

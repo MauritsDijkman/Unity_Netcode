@@ -34,6 +34,7 @@ public class TestMovement : MonoBehaviour
 
     private void Update()
     {
+        if (IsOwner) return;
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, WhatIsGround);
 
         Debug.Log($"Grounded: {grounded}");

@@ -23,6 +23,7 @@ public class MouseLook : MonoBehaviour
 
     private void HandleMouseLook()
     {
+        if (IsOwner) return;
         float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * mouseSensitivity;
         float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * mouseSensitivity;
 

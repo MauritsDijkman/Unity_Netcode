@@ -20,6 +20,7 @@ public class Weapon_Shoot : MonoBehaviour
 
     private void Update()
     {
+        if (IsOwner) return;
         if (Input.GetButtonDown("Fire1") && canShoot)
         {
             canShoot = false;
